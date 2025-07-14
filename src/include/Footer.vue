@@ -19,22 +19,22 @@
                 <div class="footer-sec2-date">
                     <table>
                         <tbody>
-                        <tr>
-                            <th class="table-title font_b">카카오톡 상담</th> 
-                            <td class="font_m" colspan="2">meedream1004</td>
-                        </tr>
-                        <tr>
-                            <th class="table-title font_b" rowspan="3">진료시간</th>
-                            <td class="table-sub font_m">평일</td>
-                            <td class="font_m">AM 10:00 ~ PM 6:00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-sub font_m">토요일</td>
-                            <td class="font_m">AM 10:00 ~ PM 3:00</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" class="font_m">일요일, 공휴일은 휴진</td>
-                        </tr>
+                            <tr>
+                                <th class="table-title font_b">카카오톡 상담</th>
+                                <td class="font_m table-sub" colspan="2">meedream1004</td>
+                            </tr>
+                            <tr>
+                                <th class="table-title font_b" rowspan="3">진료시간</th>
+                                <td class="table-sub table-sub-m font_m">평일</td>
+                                <td class="font_m table-sub">AM 10:00 ~ PM 6:00</td>
+                            </tr>
+                            <tr>
+                                <td class="table-sub table-sub-m font_m">토요일</td>
+                                <td class="font_m table-sub">AM 10:00 ~ PM 3:00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="font_m table-sub">일요일, 공휴일은 휴진</td>
+                            </tr>
                         </tbody>
                     </table>
                     <div class="bg-white footer-sec2-logo-container">
@@ -63,45 +63,56 @@
 
 
 <style>
-.icon-kakaotalk{background: url(../assets/img/icon/talk.svg) no-repeat center center; background-size: 60%;}
-.icon-naver{background: url(../assets/img/icon/naver.svg) no-repeat center center; background-size: 60%;}
-.icon-youtube{background: url(../assets/img/icon/youtube.svg) no-repeat center center; background-size: 60%;}
+.icon-kakaotalk {
+    background: url(../assets/img/icon/talk.svg) no-repeat center center;
+    background-size: 60%;
+}
 
-.footer{
+.icon-naver {
+    background: url(../assets/img/icon/naver.svg) no-repeat center center;
+    background-size: 60%;
+}
+
+.icon-youtube {
+    background: url(../assets/img/icon/youtube.svg) no-repeat center center;
+    background-size: 60%;
+}
+
+.footer {
     width: 100%;
     padding: 32px 0;
     background-color: #EEE9F0;
     margin-top: 100px;
 }
 
-.footer-container{
+.footer-container {
     width: 90%;
     margin: 0 auto;
     /* border: 1px solid red; */
 }
 
-.footer-sec1{
+.footer-sec1 {
     /* border: 1px solid blue; */
     margin-bottom: 48px;
 }
 
-.footer-sec1-title{
+.footer-sec1-title {
     font-size: 20px;
     margin-bottom: 16px;
 }
 
-.footer-sec1-text{
+.footer-sec1-text {
     font-size: 12px;
     margin-bottom: 24px;
 }
 
-.footer-icon-container{
+.footer-icon-container {
     display: flex;
     gap: 12px;
     justify-content: left;
 }
 
-.footer-icon{
+.footer-icon {
     width: 35px;
     height: 35px;
     border: 1px solid #8a75b8;
@@ -110,36 +121,36 @@
 
 /* --------------------------------- sec1 end */
 
-.footer-sec2{
+.footer-sec2 {
     /* border: 1px solid blue; */
     margin-bottom: 32px;
 }
 
-.footer-sec2-tel{
+.footer-sec2-tel {
     font-size: 12px;
     margin-bottom: 8px;
 }
 
-.footer-sec2-title{
+.footer-sec2-title {
     font-size: 32px;
     margin-bottom: 24px;
 }
 
-table{
+table {
     font-size: 12px;
     margin-bottom: 24px;
 }
 
-.table-title{
+.table-title {
     text-align: left;
     width: 110px;
 }
 
-.table-sub{
+.table-sub {
     width: 56px;
 }
 
-.footer-sec2-logo-container{
+.footer-sec2-logo-container {
     width: 100%;
     height: 45px;
     border-radius: 10px;
@@ -149,142 +160,109 @@ table{
     margin-bottom: 24px;
 }
 
-.footer-sec2-logo{
+.footer-sec2-logo {
     width: 40%;
     height: 70%;
     background: url(../assets/img/logo/logo-width.svg) center center no-repeat;
 }
 
-.footer-sec2-info{
+.footer-sec2-info {
     font-size: 12px;
     justify-content: space-between;
 }
 
 /* --------------------------------- sec2 end */
 
-.footer-sec3{
+.footer-sec3 {
     /* border: 1px solid blue; */
     font-size: 10px;
 }
 
-.footer-sec3>p{
+.footer-sec3>p {
     margin-bottom: 5px;
 }
 
-.footer-sec3>p:last-child{
+.footer-sec3>p:last-child {
     margin-bottom: 0;
 }
 
 
 /* 미디어쿼리 --------------------------------- */
 
-/* 모바일 */
-@media screen and (max-width: 450px){
-
-    /* sec2 */
-    .footer-sec2{
-        margin-bottom: 48px;
-    }
-
-    .footer-sec2-tel{
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-
-    .footer-sec2-title{
-        font-size: 40px;
-        margin-bottom: 32px;
-    }
-
-    table{
-        font-size: 20px;
-        margin-bottom: 32px;
-    }
-
-    .table-title{
-        width: 205px;
-        font-size: 20px;
-    }
-
-    .table-sub{
-        width: 102px;
-        font-size: 40px;
-    }
-
-    .footer-sec2-info{
-        font-size: 20px;
-    }
-
-    .font_m{}
-
-    /* sec3 */
-    .footer-sec3{
-        font-size: 14px;
-    }
-
-}
-
 /* 아이패드 미니 */
-@media screen and (max-width: 768px) and (min-width: 451px){
+@media screen and (max-width: 768px) and (min-width: 376px) {
 
-    .footer{
+    .footer {
         padding: 48px 0;
     }
-   
-   /* sec1 */
-   .footer-sec1-title{
+
+    /* sec1 */
+    .footer-sec1-title {
         font-size: 48px;
         margin-bottom: 24px;
     }
 
-    .footer-sec1-text{
+    .footer-sec1-text {
         font-size: 18px;
         margin-bottom: 32px;
     }
 
-    .footer-icon-container{
+    .footer-icon-container {
         gap: 16px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 45px;
         height: 45px;
     }
 
     /* sec2 */
-    .footer-sec2{
+    .footer-sec2 {
         margin-bottom: 48px;
     }
 
-    .footer-sec2-tel{
+    .footer-sec2-tel {
         font-size: 20px;
         margin-bottom: 16px;
+        /* border: 1px solid red; */
     }
 
-    .footer-sec2-title{
-        font-size: 64px;
+    .footer-sec2-title {
+        font-size: 40px;
         margin-bottom: 32px;
+        /* border: 1px solid orange; */
     }
 
-    table{
+    table {
         font-size: 20px;
         margin-bottom: 32px;
+        /* border: 1px solid green; */
     }
 
-    .table-title{
-        width: 205px;
+    .table-title {
+        font-size: 20px;
+        width: 140px !important;
+        /* border: 1px solid blue; */
     }
 
-    .table-sub{
-        width: 102px;
+    .table-sub {
+        font-size: 18px;
+        width: 170px;
+        /* border: 1px solid purple; */
     }
 
-    .footer-sec2-info{
+    .table-sub-m {
+        font-size: 20px;
+        width: 60px;
+        /* border: 1px solid firebrick; */
+    }
+
+    .footer-sec2-info {
         font-size: 20px;
     }
 
     /* sec3 */
-    .footer-sec3{
+    .footer-sec3 {
         font-size: 14px;
     }
 
@@ -292,49 +270,49 @@ table{
 
 
 /* 아이패드 프로 */
-@media screen and (max-width: 1024px) and (min-width: 769px){
+@media screen and (max-width: 1024px) and (min-width: 769px) {
 
-    .footer{
+    .footer {
         padding: 64px 0;
     }
 
-    .footer-container{
+    .footer-container {
         position: relative;
         display: flex;
         flex-wrap: wrap;
     }
 
     /* sec1 */
-    .footer-sec1{
+    .footer-sec1 {
         width: 50%;
     }
 
-    .footer-sec1-title{
+    .footer-sec1-title {
         font-size: 48px;
         margin-bottom: 24px;
     }
 
-    .footer-sec1-text{
+    .footer-sec1-text {
         font-size: 18px;
         margin-bottom: 32px;
     }
 
     /* sec2 */
-    .footer-sec2{
+    .footer-sec2 {
         width: 50%;
     }
 
-    .footer-sec2-tel{
+    .footer-sec2-tel {
         font-size: 20px;
         margin-bottom: 12px;
     }
 
-    .footer-sec2-title{
+    .footer-sec2-title {
         font-size: 48px;
         margin-bottom: 48px;
     }
 
-    .footer-sec3{
+    .footer-sec3 {
         position: absolute;
         bottom: 40px;
     }
@@ -343,78 +321,77 @@ table{
 
 
 /* pc */
-@media screen and (min-width: 1025px){
-    .footer{
+@media screen and (min-width: 1025px) {
+    .footer {
         padding: 64px 0;
         margin-top: 150px;
     }
 
-    .footer-container{
+    .footer-container {
         position: relative;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .footer-sec1{
+    .footer-sec1 {
         width: 55%;
         margin-bottom: 32px;
     }
 
-    .footer-sec1-title{
+    .footer-sec1-title {
         font-size: 64px;
         margin-bottom: 16px;
     }
 
-    .footer-sec1-text{
+    .footer-sec1-text {
         font-size: 20px;
         margin-bottom: 32px;
     }
 
-    .footer-icon-container{
+    .footer-icon-container {
         gap: 32px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 45px;
         height: 45px;
     }
 
-    .footer-sec2{
+    .footer-sec2 {
         width: 45%;
     }
 
-    .footer-sec2-tel{
+    .footer-sec2-tel {
         font-size: 20px;
         margin-bottom: 12px;
     }
 
-    .footer-sec2-title{
+    .footer-sec2-title {
         font-size: 48px;
         margin-bottom: 48px;
     }
 
-    table{
+    table {
         font-size: 20px;
         margin-bottom: 32px;
     }
 
-    .table-title{
+    .table-title {
         width: 205px;
     }
 
-    .table-sub{
+    .table-sub {
         width: 102px;
     }
 
-    .footer-sec2-info{
+    .footer-sec2-info {
         font-size: 20px;
     }
 
 
-    .footer-sec3{
+    .footer-sec3 {
         position: absolute;
         bottom: 30px;
     }
 }
-
 </style>
